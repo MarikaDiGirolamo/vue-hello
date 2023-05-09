@@ -11,9 +11,9 @@
         
         <div id="app">
             <h1>{{titolo}}</h1>
-            <span :class="chiave">Interpolato: {{message}}</span>
+            <span :class="chiave">You answer: {{message}}</span>
             <br>
-            <label>Answer him: <input v-model="titolo"></label>
+            <label>Write it: <input v-model="titolo"></label>
             <button @click="getImagePath">Cliccami</button>
             <br>
             <img :src="percorsoImg" alt="">

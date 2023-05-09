@@ -11,7 +11,7 @@ createApp ({
     },
     methods: {
         metodo() {
-            console.log("metodo che stampa un dato:", this.chiave)
+            // console.log("metodo che stampa un dato: ", this.message)
         }
     },
     getImagePath(){
