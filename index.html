@@ -5,20 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://unpkg.com/vue@3"></script>
-        <title>Document</title>
+        <title>Hello-Vue!</title>
     </head>
     <body>
         
         <div id="app">
             <h1>{{titolo}}</h1>
-            <span :class="chiave">Interpolato: {{chiave}}</span>
+            <span :class="chiave">Interpolato: {{message}}</span>
             <br>
-            <label>v-model: <input v-model="titolo"></label>
+            <label>Answer him: <input v-model="titolo"></label>
             <button @click="getImagePath">Cliccami</button>
             <br>
             <img :src="percorsoImg" alt="">
         </div>
-
         <script src="./js/main.js"></script>
     </body>
 </html>
